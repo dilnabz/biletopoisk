@@ -1,0 +1,24 @@
+.about {
+    width: 1855px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 24px 33px 24px 32px;
+    padding: 24px;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.title {
+    color:#1B1F23;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.text {
+    color:#1B1F23;
+    font-size: 16px;
+    line-height: 24px;
+}

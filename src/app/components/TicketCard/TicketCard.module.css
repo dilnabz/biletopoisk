@@ -1,0 +1,48 @@
+.ticketCard {
+    display: flex;
+    width: 1424px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.moviePoster {
+    /* width: 100px;
+    height: 120px; */
+    flex-shrink: 0;
+    border-radius: 8px;
+    /* background: url(<path-to-image>), lightgray 50% / cover no-repeat; */
+}
+
+.ticketInfo {
+    display: flex;
+    align-items: flex-start;
+    gap: 24px;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.movieInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 24px;
+    gap: 8px;
+    flex: 1 0 0;
+}
+
+.movieTitle {
+    color:#1B1F23;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.movieGenre {
+    color:#1B1F23;
+    font-size: 16px;
+    font-style: italic;
+    line-height: 20px;
+}

@@ -1,0 +1,123 @@
+.movieInfo {
+    display: flex;
+    width: 1856px;
+    height: 553px;
+    padding: 24px;
+    align-items: flex-start;
+    gap: 32px;
+    margin: 24px;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.poster {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 8px;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+}
+
+.title {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    color:#1B1F23;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+}
+
+.detail {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color: #1B1F23;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.movieDescription {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    color:#1B1F23;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.review {
+    display: flex;
+    padding: 24px;
+    width: 1856px;
+    margin: 24px;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+    border-radius: 8px;
+    background: #FFF;
+}
+
+.avatar {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background:#E0E0E0;
+}
+
+.reviewInfo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 32px;
+    flex: 1 0 0;
+}
+
+.reviewerInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+    color:#1B1F23;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.reviewtext {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+    color: #1B1F23;
+    font-size: 16px;
+    line-height: 24px;
+}

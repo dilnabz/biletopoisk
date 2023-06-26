@@ -1,0 +1,33 @@
+.basketInfo {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    color:#1B1F23;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.decreaseBtn, .increaseBtn {
+    display: inline-flex;
+    padding: 4px;
+    width: 20px;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    border-radius: 4px;
+    border-color: #FFFFFF;
+    background:#FF5500;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.decreaseBtn:disabled, .increaseBtn:disabled {
+    background: #FFA375;
+}
+
+.ticketDelete {
+    display: flex;
+    justify-content: space-between;
+  }

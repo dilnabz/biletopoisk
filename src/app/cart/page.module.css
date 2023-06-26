@@ -1,0 +1,32 @@
+.cart {
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+}
+
+.summary{
+    display: flex;
+    justify-content: space-between;
+    width: 1855px;
+    padding: 24px;
+    margin: 16px 33px 16px 32px;
+    gap: 24px;
+    border-radius: 8px;
+    background: #FFF;
+    color:  #1B1F23;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.ticketInCart {
+    display: flex;
+    padding: 24px;
+    width: 1855px;
+    margin: 16px 33px 0 32px;
+    gap: 24px;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}

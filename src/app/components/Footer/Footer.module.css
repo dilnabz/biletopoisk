@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    width: 1920px;
+    height: 86px;
+    gap: 1400px;
+    background-color: #333333;
+}
+
+.faq {
+    width: 158px;
+    height: 23px;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.about {
+    width: 53px;
+    height: 23px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    cursor: pointer;
+}

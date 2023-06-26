@@ -1,0 +1,9 @@
+.ticketSection {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    gap: 16px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+}

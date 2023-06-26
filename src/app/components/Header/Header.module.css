@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 24px 32px;
+    width: 1920px;
+    height: 84px;
+    gap: 1400px;
+    background-color: #333333;
+}
+
+.title {
+    width: 241px;
+    height: 36px;
+    font-style: normal;
+    font-size: 32px;
+    line-height: 38px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.basketIcon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sumTickets {
+    display: flex;
+    width: 28px;
+    height: 28px;
+    padding: 4px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 8px;
+    background: var(--orange, #F50);
+    color: var(--white, #FFF);
+    font-size: 14px;
+    line-height: 20px;
+}

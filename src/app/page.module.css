@@ -1,0 +1,8 @@
+.mainPage {
+    display: inline-flex;
+    width: 1920px;
+}
+
+.main {
+    display: flex;
+}
