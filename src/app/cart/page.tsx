@@ -17,7 +17,7 @@ export default function Cart() {
 
     return (
         <div className={styles.cart}>
-            {dataForCart.map(movie => <div className={styles.ticketInCart}>
+            {dataForCart.map((movie, id) => <div key={id} className={styles.ticketInCart}>
                     <TicketCard 
                         key={movie.id} 
                         id={movie.id} 
